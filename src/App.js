@@ -34,9 +34,9 @@ function App() {
 
   useEffect(() => {
 
-    //const newSocket = io.connect("http://localhost:4000");
+    //const newSocket = io.connect("192.168.1.15:4000");
 
-    const newSocket = io.connect("https://chatapp-backend-n6qm.onrender.com");
+    const newSocket = io.connect("http://chatapp.freemyip.com/");
     
 
     setSocket(newSocket);
